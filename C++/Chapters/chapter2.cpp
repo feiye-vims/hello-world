@@ -4,8 +4,10 @@ using namespace std;
 void greetings_ntimes(int);  // Either "int" or "int n" works
 int square(int);
 
-int main() {
-    int n = 3;
+int chapter2() {
+    cout << "<Chapter 2>" << endl;
+
+    int n = 2;
     int && m = square(n);
 
     greetings_ntimes(n);
